@@ -14,7 +14,8 @@ import com.atguigu.gulimall.product.entity.CategoryEntity;
 import com.atguigu.gulimall.product.service.CategoryService;
 import com.atguigu.common.utils.PageUtils;
 import com.atguigu.common.utils.R;
-
+import java.util.List;
+import java.util.stream.Collectors;
 
 
 /**
@@ -29,6 +30,45 @@ import com.atguigu.common.utils.R;
 public class CategoryController {
     @Autowired
     private CategoryService categoryService;
+
+    /**
+     * 查出所有
+     * 分类以及子类，以树形结构组装
+     */
+    @RequestMapping("/list/tree")
+    public R list() {
+        List<CategoryEntity> entities = categoryService.listWithTree();
+        // 筛选出所有一级分类
+        List<CategoryEntity> level1Menus = entities.stream().
+                filter((categoryEntity) -> categoryEntity.getParentCid() == 0)
+                .map((menu) -> {
+                    menu.setChildren(getChildren(menu, entities));
+                    return menu;
+                }).sorted((menu1, menu2) -> {
+                    return (menu1.getSort() == null ? 0 : menu1.getSort()) - (menu2.getSort() == null ? 0 : menu2.getSort());
+                })
+                .collect(Collectors.toList());
+        return R.ok().put("data", level1Menus);
+    }
+
+    /**
+     * 递归找所有的子菜单、中途要排序
+     */
+    List<CategoryEntity> getChildren(CategoryEntity categoryEntity, List<CategoryEntity> all) {
+        return all.stream().filter((entity) ->
+                entity.getParentCid() == categoryEntity.getCatId()).
+                map((entity) -> {
+                    entity.setChildren(getChildren(entity, all));
+                    return entity;
+                }).
+                sorted((menu1, menu2) -> {
+                    return (menu1.getSort() == null ? 0 : menu1.getSort()) - (menu2.getSort() == null ? 0 : menu2.getSort());
+                }).
+                collect(Collectors.toList());
+    }
+
+
+
 
     /**
      * 列表
