@@ -1,9 +1,17 @@
 package com.atguigu.gulimall.product.controller;
 
-import java.util.Arrays;
-import java.util.Map;
 
+import java.util.List;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+import com.atguigu.common.excepiton.RRException;
+import io.renren.common.validator.group.UpdateGroup;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -67,6 +75,16 @@ public class BrandController {
     public R save(@Validated @RequestBody BrandEntity brand){
 		brandService.save(brand);
 
+        return R.ok();
+    }
+
+    @RequestMapping("/testsave")
+    // @RequiresPermissions("product:brand:save")
+    public R TestSave(@RequestBody BrandEntity brand) throws RRException {
+        if (true) {
+            throw new RRException("自定义异常");
+        }
+        brandService.save(brand);
         return R.ok();
     }
 

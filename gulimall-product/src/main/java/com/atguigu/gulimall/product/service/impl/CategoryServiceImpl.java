@@ -1,5 +1,6 @@
 package com.atguigu.gulimall.product.service.impl;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -35,6 +36,11 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     @Override
     public List<CategoryEntity> listWithTree() {
         return categoryDao.selectList(null);
+    }
+
+    @Override
+    public IPage<CategoryEntity> selectPageVo(Page<CategoryEntity> page, Integer state) {
+        return  null;
     }
 
 }

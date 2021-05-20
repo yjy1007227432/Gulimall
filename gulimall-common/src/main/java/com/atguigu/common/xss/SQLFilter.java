@@ -6,7 +6,7 @@ package com.atguigu.common.xss; /**
  * 版权所有，侵权必究！
  */
 
-import com.atguigu.common.excepiton.exception.RRException;
+import com.atguigu.common.excepiton.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**
