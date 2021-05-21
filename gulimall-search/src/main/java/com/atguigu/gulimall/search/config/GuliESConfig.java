@@ -1,9 +1,11 @@
-package com.atguigu.gulimall.gateway.config;
+package com.atguigu.gulimall.search.config;
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestClientBuilder;
+import org.elasticsearch.client.RestHighLevelClient;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -11,6 +13,9 @@ import org.springframework.context.annotation.Configuration;
 public class GuliESConfig {
 
     public static final RequestOptions COMMON_OPTIONS;
+
+    @Value("${com.tmall.id}")
+    private String host;
 
     static {
         RequestOptions.Builder builder = RequestOptions.DEFAULT.toBuilder();
