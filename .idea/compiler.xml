@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gulimall-coupon" />
         <module name="gulimall-ware" />
+        <module name="gulimall-search" />
         <module name="gulimall-gateway" />
         <module name="gulimall-product" />
         <module name="gulimall-order" />
@@ -26,6 +27,7 @@
       <module name="gulimall-member" target="1.8" />
       <module name="gulimall-order" target="1.8" />
       <module name="gulimall-product" target="1.8" />
+      <module name="gulimall-search" target="1.8" />
       <module name="gulimall-ware" target="1.8" />
       <module name="renren-fast" target="1.8" />
       <module name="renren-generator" target="1.8" />
@@ -39,6 +41,7 @@
       <module name="gulimall-member" options="-parameters" />
       <module name="gulimall-order" options="-parameters" />
       <module name="gulimall-product" options="-parameters" />
+      <module name="gulimall-search" options="-parameters" />
       <module name="gulimall-ware" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
       <module name="renren-generator" options="-parameters" />
