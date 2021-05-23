@@ -1,6 +1,5 @@
 package com.atguigu.gulimall.product.service.impl;
 
-import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
@@ -11,6 +10,7 @@ import com.atguigu.common.utils.Query;
 import com.atguigu.gulimall.product.dao.BrandDao;
 import com.atguigu.gulimall.product.entity.BrandEntity;
 import com.atguigu.gulimall.product.service.BrandService;
+import org.springframework.stereotype.Service;
 
 
 @Service("brandService")

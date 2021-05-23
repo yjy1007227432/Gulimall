@@ -8,7 +8,6 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import com.atguigu.common.excepiton.RRException;
-import io.renren.common.validator.group.UpdateGroup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -39,11 +38,6 @@ import javax.validation.Valid;
 public class BrandController {
     @Autowired
     private BrandService brandService;
-
-
-
-
-
     /**
      * 列表
      */

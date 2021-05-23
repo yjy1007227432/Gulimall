@@ -1,14 +1,16 @@
 package com.atguigu.gulimall.product.controller;
 
+import java.io.IOException;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
+import com.atguigu.common.excepiton.BizCodeEnum;
+import com.atguigu.gulimall.product.service.impl.ProductSaveServiceImpl;
+import com.atguigu.gulimall.product.vo.SkuEsModel;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.atguigu.gulimall.product.entity.SkuInfoEntity;
 import com.atguigu.gulimall.product.service.SkuInfoService;
@@ -25,10 +27,14 @@ import com.atguigu.common.utils.R;
  * @date 2021-05-18 16:49:18
  */
 @RestController
+@Slf4j
 @RequestMapping("product/skuinfo")
 public class SkuInfoController {
     @Autowired
     private SkuInfoService skuInfoService;
+
+//    @Autowired
+//    private ProductSaveService productSaveService;
 
     /**
      * 列表

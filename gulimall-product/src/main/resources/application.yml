@@ -10,6 +10,16 @@ spring:
         server-addr: 120.26.198.103:8848
   application:
     name: gulimall-product
+  redis:
+    host: 120.26.198.103
+    port: 6379
+  cache:
+    #指定缓存类型为redis
+    type: redis
+    redis:
+    # 指定redis中的过期时间为1h
+      time-to-live: 3600000
+
 
 # MapperScan
 # sql映射文件位置
@@ -23,3 +33,4 @@ mybatis-plus:
       logic-not-delete-value: 0
 server:
   port: 9000
+

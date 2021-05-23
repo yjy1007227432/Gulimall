@@ -1,4 +1,4 @@
 package com.atguigu.common.valid;
 
-public interface UpadateGroup {
+public interface UpdateGroup {
 }

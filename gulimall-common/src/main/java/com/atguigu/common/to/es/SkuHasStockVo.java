@@ -1,4 +1,4 @@
-package com.firenay.common.to.es;
+package com.atguigu.common.to.es;
 
 import lombok.Data;
 

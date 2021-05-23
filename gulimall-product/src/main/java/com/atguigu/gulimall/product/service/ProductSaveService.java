@@ -1,2 +1,4 @@
-package com.atguigu.gulimall.product.service;public class ProductSaveService {
+package com.atguigu.gulimall.product.service;
+
+public interface ProductSaveService {
 }

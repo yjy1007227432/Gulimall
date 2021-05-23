@@ -10,6 +10,9 @@ spring:
         server-addr: 120.26.198.103:8848
   application:
     name: gulimall-product
+  redis:
+    host: 120.26.198.103
+    port: 6379
 
 # MapperScan
 # sql映射文件位置
@@ -23,3 +26,4 @@ mybatis-plus:
       logic-not-delete-value: 0
 server:
   port: 9000
+

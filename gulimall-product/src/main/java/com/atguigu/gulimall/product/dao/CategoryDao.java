@@ -13,7 +13,6 @@ import org.springframework.stereotype.Component;
  * @date 2021-04-30 11:20:32
  */
 @Mapper
-@Component
 public interface CategoryDao extends BaseMapper<CategoryEntity> {
 	
 }

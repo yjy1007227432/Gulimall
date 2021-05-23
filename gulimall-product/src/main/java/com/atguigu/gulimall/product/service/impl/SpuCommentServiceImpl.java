@@ -1,6 +1,7 @@
 package com.atguigu.gulimall.product.service.impl;
 
-import io.renren.common.utils.Query;
+
+import com.atguigu.common.utils.Query;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
