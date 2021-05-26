@@ -19,6 +19,7 @@ spring:
     redis:
     # 指定redis中的过期时间为1h
       time-to-live: 3600000
+      cache-null-values: true
 
 
 # MapperScan

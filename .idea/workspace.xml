@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fbc3524-d8d8-4ba7-9b74-3efd693a052e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" afterDir="false" />
-    </list>
+    <list default="true" id="8fbc3524-d8d8-4ba7-9b74-3efd693a052e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +34,15 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Administrator\.m2\repository" />
+        <option name="mavenHome" value="C:/Program Files (x86)/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1si6bY2Gjz8hSo4fEUr6qti9oNo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,9 +61,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-common/src/main/java/com/atguigu/common/xss" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -63,17 +72,9 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atguigu.gulimall.product.service" />
-      <recent name="com.atguigu.gulimall.ware.vo" />
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="com.atguigu.gulimall.search.config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\code\Gulimall-yjy\gulimall-common\src\main\java\com\atguigu\common" />
-      <recent name="G:\code\Gulimall-yjy\gulimall-ware\src\main\resources" />
-      <recent name="G:\code\Gulimall-yjy\gulimall-order\src\main\resources" />
-      <recent name="G:\code\Gulimall-yjy\gulimall-member\src\main\resources" />
-      <recent name="G:\code\Gulimall-yjy\gulimall-coupon\src\main\resources" />
+      <recent name="com.atguigu.gulimall.product.controller" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -81,13 +82,24 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.atguigu.gulimall.product" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.atguigu.gulimall.search.config" />
-      <recent name="com.atguigu.gulimall.product.controller" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.common.vo" />
       <recent name="com.atguigu.gulimall.product.feign" />
       <recent name="com.atguigu.common.excepiton" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\src\gulimall\gulimall-common\src\main\java\com\atguigu\common\xss" />
+      <recent name="D:\code\src\gulimall\gulimall-common\src\main\java\com\atguigu\common" />
+      <recent name="D:\code\src\gulimall" />
+      <recent name="G:\code\Gulimall-yjy\gulimall-common\src\main\java\com\atguigu\common" />
+      <recent name="G:\code\Gulimall-yjy\gulimall-ware\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.gulimall.member.vo" />
+      <recent name="com.atguigu.gulimall.member.service" />
+      <recent name="com.atguigu.gulimall.ware.vo" />
+      <recent name="com.atguigu.gulimall.product.service" />
+      <recent name="com.atguigu.gulimall.search.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,18 +109,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AttrControllerTest.redissionSemaphore">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.GulimallProductApplication">
     <configuration name="AttrControllerTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gulimall-product" />
       <extension name="coverage">
@@ -238,6 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MallAuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gulimall-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.firenay.mall.auth.MallAuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RenrenApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="renren-fast" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
@@ -262,7 +270,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -283,13 +291,16 @@
       <workItem from="1621659458930" duration="152000" />
       <workItem from="1621672268013" duration="3552000" />
       <workItem from="1621675964138" duration="14446000" />
-      <workItem from="1621742068664" duration="12846000" />
-      <workItem from="1622039070899" duration="236000" />
+      <workItem from="1621742068664" duration="12629000" />
+      <workItem from="1621838435918" duration="1820000" />
+      <workItem from="1621906969359" duration="10995000" />
+      <workItem from="1621930978090" duration="557000" />
+      <workItem from="1621933714289" duration="1634000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -303,26 +314,103 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="2360" y="94" key="#Project_Structure" timestamp="1621904135862">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2360" y="94" key="#Project_Structure/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621904135862" />
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1621929178502">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621929178502" />
+    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1621935002135">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935002135" />
+    <state width="1379" height="451" key="GridCell.Tab.0.bottom" timestamp="1621935169382">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="451" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935169382" />
+    <state width="1379" height="451" key="GridCell.Tab.0.center" timestamp="1621935169382">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="451" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935169382" />
+    <state width="1379" height="451" key="GridCell.Tab.0.left" timestamp="1621935169382">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="451" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935169382" />
+    <state width="1379" height="451" key="GridCell.Tab.0.right" timestamp="1621935169382">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="451" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935169382" />
+    <state width="1379" height="451" key="GridCell.Tab.1.bottom" timestamp="1621935169383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="451" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935169383" />
+    <state width="1379" height="451" key="GridCell.Tab.1.center" timestamp="1621935169383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="451" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935169383" />
+    <state width="1379" height="451" key="GridCell.Tab.1.left" timestamp="1621935169383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="451" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935169383" />
+    <state width="1379" height="451" key="GridCell.Tab.1.right" timestamp="1621935169383">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="451" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935169383" />
+    <state width="1379" height="255" key="GridCell.Tab.2.bottom" timestamp="1621827048199">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="255" key="GridCell.Tab.2.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621827048199" />
+    <state width="1379" height="255" key="GridCell.Tab.2.center" timestamp="1621827048199">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="255" key="GridCell.Tab.2.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621827048199" />
+    <state width="1379" height="255" key="GridCell.Tab.2.left" timestamp="1621827048199">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="255" key="GridCell.Tab.2.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621827048199" />
+    <state width="1379" height="255" key="GridCell.Tab.2.right" timestamp="1621827048199">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1379" height="255" key="GridCell.Tab.2.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621827048199" />
+    <state x="2410" y="174" key="Maven.ArtifactSearchDialog" timestamp="1621823409945">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2410" y="174" key="Maven.ArtifactSearchDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621823409945" />
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1621935003440">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2381" y="164" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621935003440" />
+    <state x="2582" y="254" width="600" height="532" key="find.popup" timestamp="1621934873940">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2582" y="254" width="600" height="532" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621934873940" />
+    <state x="2469" y="191" key="new project wizard" timestamp="1621826980257">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2469" y="191" key="new project wizard/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621826980257" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1621934881890">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1621934881890" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.12.5/redisson-3.12.5-sources.jar!/org/redisson/api/RSemaphoreAsync.java</url>
           <line>36</line>
-          <properties class="org.redisson.api.RSemaphoreAsync" method="tryAcquireAsync">
+          <properties class="org.redisson.api.RSemaphoreAsync">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/product/controller/AttrControllerTest.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/gulimall-product/src/test/java/com/atguigu/gulimall/product/controller/AttrControllerTest.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/CategoryController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
