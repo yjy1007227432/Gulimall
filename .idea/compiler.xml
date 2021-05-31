@@ -8,20 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gulimall-coupon" />
-        <module name="gulimall-order" />
-        <module name="gulimall-ware" />
-        <module name="gulimall-auth-server" />
-        <module name="gulimall-search" />
-        <module name="gulimall-gateway" />
+        <module name="mall-seckill" />
         <module name="gulimall-common" />
-        <module name="gulimall-product" />
+        <module name="gulimall-auth-server" />
         <module name="renren-fast" />
+        <module name="gulimall-order" />
+        <module name="gulimall-search" />
+        <module name="gulimall-ware" />
+        <module name="gulimall-gateway" />
         <module name="gulimall-member" />
+        <module name="gulimall-product" />
         <module name="renren-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gulimall" target="1.8" />
+      <module name="gulimall" target="1.5" />
       <module name="gulimall-auth-server" target="1.8" />
       <module name="gulimall-common" target="7" />
       <module name="gulimall-coupon" target="1.8" />
@@ -31,6 +32,7 @@
       <module name="gulimall-product" target="1.8" />
       <module name="gulimall-search" target="1.8" />
       <module name="gulimall-ware" target="1.8" />
+      <module name="mall-seckill" target="1.8" />
       <module name="renren-fast" target="1.8" />
       <module name="renren-generator" target="1.8" />
     </bytecodeTargetLevel>
@@ -46,6 +48,7 @@
       <module name="gulimall-product" options="-parameters" />
       <module name="gulimall-search" options="-parameters" />
       <module name="gulimall-ware" options="-parameters" />
+      <module name="mall-seckill" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
       <module name="renren-generator" options="-parameters" />
     </option>

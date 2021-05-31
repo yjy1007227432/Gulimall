@@ -20,6 +20,8 @@ spring:
     # 指定redis中的过期时间为1h
       time-to-live: 3600000
       cache-null-values: true
+  thymeleaf:
+    cache: false
 
 
 # MapperScan
@@ -34,4 +36,7 @@ mybatis-plus:
       logic-not-delete-value: 0
 server:
   port: 9000
+
+
+
 

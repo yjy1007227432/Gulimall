@@ -74,6 +74,14 @@ public class R extends HashMap<String, Object> {
 		Object data = get(key);
 		return JSON.parseObject(JSON.toJSONString(data), typeReference);
 	}
+	/**
+	 * 复杂类型转换 TypeReference
+	 */
+	public <T> T getData(TypeReference<T> typeReference){
+		// get("data") 默认是map类型 所以再由map转成string再转json
+		Object data = get("data");
+		return JSON.parseObject(JSON.toJSONString(data), typeReference);
+	}
 
 	public R setData(Object data) {
 		this.put("data",data);

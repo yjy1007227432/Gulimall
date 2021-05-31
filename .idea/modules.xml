@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/gulimall-product/gulimall-product.iml" filepath="$PROJECT_DIR$/gulimall-product/gulimall-product.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulimall-search/gulimall-search.iml" filepath="$PROJECT_DIR$/gulimall-search/gulimall-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" filepath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-seckill/mall-seckill.iml" filepath="$PROJECT_DIR$/mall-seckill/mall-seckill.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
     </modules>
