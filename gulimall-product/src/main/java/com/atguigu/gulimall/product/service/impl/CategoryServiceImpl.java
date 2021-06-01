@@ -74,6 +74,31 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         return parent_cid;
     }
 
+    @Cacheable(value = "category", key = "#root.methodName")
+    public Map<String, List<Catelog2Vo>> getMyCatelogJson() {
+        // 查询所有一级分类
+        List<CategoryEntity> categoryEntities = baseMapper.selectList(new QueryWrapper<CategoryEntity>().eq("parent_cid",0l));
+        Map<String, List<Catelog2Vo>> catelog2Vos = categoryEntities.stream().collect(Collectors.toMap(k->k.getCatId().toString(),v -> {
+            // 拿到每一个一级分类 然后查询他们的二级分类
+            List<CategoryEntity> categoryLevel2 = baseMapper.selectList(new QueryWrapper<CategoryEntity>().eq("parent_cid",v.getCatId()));
+            List<Catelog2Vo> catelog2Vos1 = null;
+            if(categoryLevel2!=null){
+                catelog2Vos1 = categoryLevel2.stream().map(l2->{
+                    List<CategoryEntity> categoryEntities3 = baseMapper.selectList(new QueryWrapper<CategoryEntity>().eq("parent_cid",l2.getCatId()));
+                    Catelog2Vo catelog2Vo = new Catelog2Vo(v.getCatId().toString(), l2.getName(), l2.getCatId().toString(), null);
+                    if(categoryEntities3!=null){
+                        List<Catalog3Vo> catalog3Vos = categoryEntities3.stream().map(l3 ->
+                                new Catalog3Vo(l3.getCatId().toString(),l3.getName(),l2.getCatId().toString())).collect(Collectors.toList());
+                        catelog2Vo.setCatalog3List(catalog3Vos);
+                    }
+                    return catelog2Vo;
+                }).collect(Collectors.toList());
+            }
+            return catelog2Vos1;
+        }));
+        return catelog2Vos;
+    }
+
     @Override
     public List<CategoryEntity> getLevel1Categorys() {
         return baseMapper.selectList(new QueryWrapper<CategoryEntity>().eq("cat_level", 1));
@@ -83,6 +108,9 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
         return entityList.stream().filter(item -> item.getParentCid() == parent_cid).collect(Collectors.toList());
     }
+
+
+
 
 
 }

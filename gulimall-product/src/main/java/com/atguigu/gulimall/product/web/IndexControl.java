@@ -15,12 +15,20 @@ import java.util.Map;
 public class IndexControl {
 
     @Autowired
-    CategoryService categoryService;
+    private CategoryService categoryService;
 
 
     @ResponseBody
     @RequestMapping("/catalog.json")
     public Map<String, List<Catelog2Vo>> getCatlogJson() {
+
+        Map<String, List<Catelog2Vo>> map = categoryService.getCatelogJson();
+        return map;
+    }
+
+    @ResponseBody
+    @RequestMapping("/catalog")
+    public Map<String, List<Catelog2Vo>> getCatlogJson2() {
 
         Map<String, List<Catelog2Vo>> map = categoryService.getCatelogJson();
         return map;

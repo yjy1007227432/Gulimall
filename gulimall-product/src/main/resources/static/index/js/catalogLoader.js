@@ -1,5 +1,5 @@
 $(function(){
-    $.getJSON("index/json/catalog.json",function (data) {
+    $.getJSON("http://localhost:9000/product/html/index/json/catalog.json",function (data) {
 
         var ctgall=data;
         $(".header_main_left_a").each(function(){
@@ -18,7 +18,7 @@ $(function(){
                         var  ctg3List=ctg2["catalog3List"];
                         var len=0;
                         $.each(ctg3List,function (i,ctg3) {
-                            var cata3link = $("<a href=\"http://search.grainmall.cn/search.html?catalog3Id="+ctg3.id+"\" style=\"color: #999;\">" + ctg3.name + "</a>");
+                            var cata3link = $("<a href=\"http://search.grainmall.cn/search.html?git="+ctg3.id+"\" style=\"color: #999;\">" + ctg3.name + "</a>");
                             li.append(cata3link);
                             len=len+1+ctg3.name.length;
                         });
