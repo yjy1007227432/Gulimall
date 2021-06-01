@@ -203,9 +203,10 @@
       <div class="header_banner">
         <div class="header_main_left">
           <ul>
-            <li th:each="category : ${categorys}">
-              <a href="/" class="header_main_left_a" th:attr="ctg-data=${category.getCatId()}" th:text="${category.getName()}"><b>图书、音像、电子书刊</b></a>
+            <li th:each="catagory:${catagories}" >
+              <a href="#" class="header_main_left_a" ctg-data="3" th:attr="ctg-data=${catagory.catId}"><b th:text="${catagory.name}"></b></a>
             </li>
+
           </ul>
 
         </div>
@@ -584,7 +585,7 @@
   }
 
   function to_href(skuId){
-      location.href = "http://item.glmall.com/" + skuId + ".html";
+      location.href = "http://localhost:9000/" + skuId + ".html";
   }
   $.get("http://seckill.glmall.com/currentSeckillSkus",function (resp) {
       if(resp.data.length > 0){

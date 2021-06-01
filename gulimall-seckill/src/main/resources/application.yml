@@ -1,0 +1,61 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://120.26.198.103:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: gulimall-seckill
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 120.26.198.103:8848
+      config:
+        max-retry: 10
+    sentinel:
+      transport:
+       # port: 8719
+        dashboard: 120.26.198.103:8889
+  redis:
+    host: 120.26.198.103
+    port: 6379
+  task:
+    execution:
+      pool:
+        core-size: 5
+        max-size: 50
+  zipkin:
+    sender:
+      type: web
+    base-url: http://120.26.198.103:9411/
+    discovery-client-enabled: false
+  sleuth:
+    sampler:
+      probability: 1
+  session:
+    store-type: redis
+  rabbitmq:
+    host: 120.26.198.103
+    port: 5672
+    virtual-host: /
+  thymeleaf:
+    cache: false
+server:
+  port: 8093
+
+feign:
+  client:
+    config:
+      gulimall-coupon:
+        readTimeout: 6000
+        connectTimeout: 6000
+        loggerLevel: FULL
+      gulimall-product:
+        readTimeout: 6000
+        connectTimeout: 6000
+        loggerLevel: FULL
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

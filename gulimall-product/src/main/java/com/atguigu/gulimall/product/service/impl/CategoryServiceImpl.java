@@ -74,6 +74,11 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         return parent_cid;
     }
 
+    @Override
+    public List<CategoryEntity> getLevel1Categorys() {
+        return baseMapper.selectList(new QueryWrapper<CategoryEntity>().eq("cat_level", 1));
+    }
+
     private List<CategoryEntity> getCategoryEntities(List<CategoryEntity> entityList, Long parent_cid) {
 
         return entityList.stream().filter(item -> item.getParentCid() == parent_cid).collect(Collectors.toList());

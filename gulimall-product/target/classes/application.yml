@@ -22,6 +22,8 @@ spring:
       cache-null-values: true
   thymeleaf:
     cache: false
+    suffix: .html
+    prefix: classpath:/templates/
 
 
 # MapperScan

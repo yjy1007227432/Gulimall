@@ -26,5 +26,7 @@ public interface CategoryService extends IService<CategoryEntity> {
     IPage<CategoryEntity> selectPageVo(Page<CategoryEntity> page, Integer state);
 
     Map<String, List<Catelog2Vo>> getCatelogJson();
+
+    List<CategoryEntity> getLevel1Categorys();
 }
 
