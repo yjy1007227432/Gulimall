@@ -5,11 +5,11 @@ import com.atguigu.common.utils.Query;
 import com.atguigu.gulimall.product.dao.SkuInfoDao;
 import com.atguigu.gulimall.product.entity.SkuImagesEntity;
 import com.atguigu.gulimall.product.entity.SkuInfoEntity;
-import com.atguigu.gulimall.product.service.SkuImagesService;
-import com.atguigu.gulimall.product.service.SkuInfoService;
-import com.atguigu.gulimall.product.service.SkuSaleAttrValueService;
+import com.atguigu.gulimall.product.entity.SpuInfoDescEntity;
+import com.atguigu.gulimall.product.service.*;
 import com.atguigu.gulimall.product.vo.ItemSaleAttrVo;
 import com.atguigu.gulimall.product.vo.SkuItemVo;
+import com.atguigu.gulimall.product.vo.SpuItemAttrGroup;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -34,6 +34,12 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> i
 
     @Autowired
     private ThreadPoolExecutor executor;
+
+    @Autowired
+    private SpuInfoDescService spuInfoDescService;
+
+    @Autowired
+    private AttrGroupService attrGroupService;
 
     @Override
     public PageUtils queryPage(Map<String, Object> params) {
@@ -89,10 +95,25 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> i
          */
 
         CompletableFuture<Void> saleAttrFuture = infoFuture.thenAcceptAsync((res)->{
+            //获取spu销售属性组合
             List<ItemSaleAttrVo> saleAttrVos = skuSaleAttrValueService.
                     getSaleAttrsBySpuId(res.getSpuId());
             skuItemVo.setSaleAttr(saleAttrVos);
         },executor);
+
+        CompletableFuture<Void> descFuture = infoFuture.thenAcceptAsync(res->{
+            //获取spu介绍
+            SpuInfoDescEntity spuInfoEntity = spuInfoDescService.getById(res.getSpuId());
+            skuItemVo.setDesc(spuInfoEntity);
+        },executor);
+
+        CompletableFuture<Void> attrFuture = infoFuture.thenAcceptAsync(res->{
+            // 获取spu规格参数信息
+            List<SpuItemAttrGroup> attrGroups = attrGroupService.getAttrGroupWithAttrsBySpuId(res.getSpuId(), res.getCatalogId());
+            skuItemVo.setGroupAttrs(attrGroups);
+        },executor);
+
+
 
 
 
