@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbc3524-d8d8-4ba7-9b74-3efd693a052e" name="Default Changelist" comment="111">
+      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/SeckillFeignService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrGroupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/dao/AttrGroupDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/AttrGroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrGroupServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/AttrGroupServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrGroupDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/mapper/product/AttrGroupDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/gulimall-seckill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-seckill/gulimall-seckill.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-seckill/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/dalianpai/gulimall/seckill/feign/CouponFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/dalianpai/gulimall/seckill/feign/CouponFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/dalianpai/gulimall/seckill/service/impl/SeckillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/dalianpai/gulimall/seckill/service/impl/SeckillServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +46,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Administrator\.m2\repository" />
+        <option name="localRepository" value="C:\Users\YMXD\.m2\repository" />
         <option name="mavenHome" value="C:/Program Files (x86)/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
+        <option name="userSettingsFile" value="C:\Users\YMXD\.m2\setting.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -74,27 +76,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.atguigu.gulimall.search.config" />
-      <recent name="com.atguigu.gulimall.product.controller" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.atguigu.gulimall.product" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\src\gulimall\gulimall-search\src\main\resources\templates" />
-      <recent name="D:\code\src\gulimall\gulimall-seckill\src\main\java\com\dalianpai\gulimall\seckill" />
-      <recent name="D:\code\src\gulimall" />
-      <recent name="G:\code\Gulimall-yjy\gulimall-product\src\main\resources\static" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.gulimall.product.service" />
+      <recent name="com.atguigu.gulimall.product.config" />
+      <recent name="com.atguigu.gulimall.product.vo" />
+      <recent name="com.atguigu.gulimall.member.vo" />
+      <recent name="com.atguigu.gulimall.member.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\src\gulimall\gulimall-search\src\main\resources\templates" />
@@ -103,19 +96,28 @@
       <recent name="G:\code\Gulimall-yjy\gulimall-product\src\main\resources\static" />
       <recent name="G:\code\Gulimall-yjy\gulimall-product\src\main\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\src\gulimall\gulimall-search\src\main\resources\templates" />
+      <recent name="D:\code\src\gulimall\gulimall-seckill\src\main\java\com\dalianpai\gulimall\seckill" />
+      <recent name="D:\code\src\gulimall" />
+      <recent name="G:\code\Gulimall-yjy\gulimall-product\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gulimall.product" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.gulimall.search.config" />
+      <recent name="com.atguigu.gulimall.product.controller" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.gulimall.product.config" />
       <recent name="com.atguigu.gulimall.product.vo" />
       <recent name="com.atguigu.gulimall.search.control" />
       <recent name="com.atguigu.gulimall.product.web" />
       <recent name="com.atguigu.common.vo" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atguigu.gulimall.product.config" />
-      <recent name="com.atguigu.gulimall.product.vo" />
-      <recent name="com.atguigu.gulimall.member.vo" />
-      <recent name="com.atguigu.gulimall.member.service" />
-      <recent name="com.atguigu.gulimall.ware.vo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,7 +323,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -351,6 +353,7 @@
       <workItem from="1622471160688" duration="5687000" />
       <workItem from="1622525546169" duration="8028000" />
       <workItem from="1622613489305" duration="10969000" />
+      <workItem from="1622730720838" duration="3099000" />
     </task>
     <servers />
   </component>
