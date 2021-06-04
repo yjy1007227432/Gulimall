@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbc3524-d8d8-4ba7-9b74-3efd693a052e" name="Default Changelist" comment="111">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gulimall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulimall.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -38,6 +39,16 @@
       <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertaskdetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertaskdetail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/waresku-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/waresku-add-or-update.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/waresku.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/waresku.vue" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/feign/SeckillFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/gulimall-seckill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-seckill/gulimall-seckill.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-seckill/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/dalianpai/gulimall/seckill/feign/CouponFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/dalianpai/gulimall/seckill/feign/CouponFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/dalianpai/gulimall/seckill/service/impl/SeckillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-seckill/src/main/java/com/dalianpai/gulimall/seckill/service/impl/SeckillServiceImpl.java" afterDir="false" />
+>>>>>>> 8331d25d58b7300835b9baed642742edadc6375a
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +82,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Administrator\.m2\repository" />
+        <option name="localRepository" value="C:\Users\YMXD\.m2\repository" />
         <option name="mavenHome" value="C:/Program Files (x86)/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
+        <option name="userSettingsFile" value="C:\Users\YMXD\.m2\setting.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -101,27 +112,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.atguigu.gulimall.search.config" />
-      <recent name="com.atguigu.gulimall.product.controller" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.atguigu.gulimall.product" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\src\gulimall\gulimall-search\src\main\resources\templates" />
-      <recent name="D:\code\src\gulimall\gulimall-seckill\src\main\java\com\dalianpai\gulimall\seckill" />
-      <recent name="D:\code\src\gulimall" />
-      <recent name="G:\code\Gulimall-yjy\gulimall-product\src\main\resources\static" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.gulimall.product.service" />
+      <recent name="com.atguigu.gulimall.product.config" />
+      <recent name="com.atguigu.gulimall.product.vo" />
+      <recent name="com.atguigu.gulimall.member.vo" />
+      <recent name="com.atguigu.gulimall.member.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\src\gulimall\gulimall-search\src\main\resources\templates" />
@@ -130,19 +132,28 @@
       <recent name="G:\code\Gulimall-yjy\gulimall-product\src\main\resources\static" />
       <recent name="G:\code\Gulimall-yjy\gulimall-product\src\main\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\src\gulimall\gulimall-search\src\main\resources\templates" />
+      <recent name="D:\code\src\gulimall\gulimall-seckill\src\main\java\com\dalianpai\gulimall\seckill" />
+      <recent name="D:\code\src\gulimall" />
+      <recent name="G:\code\Gulimall-yjy\gulimall-product\src\main\resources\static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gulimall.product" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu.gulimall.search.config" />
+      <recent name="com.atguigu.gulimall.product.controller" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.gulimall.product.config" />
       <recent name="com.atguigu.gulimall.product.vo" />
       <recent name="com.atguigu.gulimall.search.control" />
       <recent name="com.atguigu.gulimall.product.web" />
       <recent name="com.atguigu.common.vo" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atguigu.gulimall.product.config" />
-      <recent name="com.atguigu.gulimall.product.vo" />
-      <recent name="com.atguigu.gulimall.member.vo" />
-      <recent name="com.atguigu.gulimall.member.service" />
-      <recent name="com.atguigu.gulimall.ware.vo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,7 +359,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -377,13 +388,18 @@
       <workItem from="1622340861408" duration="9343000" />
       <workItem from="1622471160688" duration="5687000" />
       <workItem from="1622525546169" duration="8028000" />
+<<<<<<< HEAD
       <workItem from="1622613489305" duration="11797000" />
       <workItem from="1622788866474" duration="6256000" />
+=======
+      <workItem from="1622613489305" duration="10969000" />
+      <workItem from="1622730720838" duration="3099000" />
+>>>>>>> 8331d25d58b7300835b9baed642742edadc6375a
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -401,6 +417,7 @@
     <MESSAGE value="111" />
     <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
+<<<<<<< HEAD
   <component name="WindowStateProjectService">
     <state x="2510" y="113" width="753" height="813" key="#GulimallProductApplication" timestamp="1622613627171">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -498,6 +515,8 @@
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622621166518" />
   </component>
+=======
+>>>>>>> 8331d25d58b7300835b9baed642742edadc6375a
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
