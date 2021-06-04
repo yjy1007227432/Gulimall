@@ -30,9 +30,8 @@ public class GuliESConfig {
     @Bean
     public RestHighLevelClient esRestClient() {
 
-        RestClientBuilder builder = null;
         // 可以指定多个es
-        builder = RestClient.builder(new HttpHost(host, 9200, "http"));
+        RestClientBuilder builder = RestClient.builder(new HttpHost(host, 9200, "http"));
 
         RestHighLevelClient client = new RestHighLevelClient(builder);
         return client;

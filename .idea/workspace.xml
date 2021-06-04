@@ -5,26 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fbc3524-d8d8-4ba7-9b74-3efd693a052e" name="Default Changelist" comment="111">
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/MyThreadConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/config/ThreadPoolConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/AttrValueWithSkuIdVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/ItemSaleAttrVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SeckillInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SkuItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SpuBaseAttrVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/vo/SpuItemAttrGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_1_22_21__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_6_1_22_21__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gulimall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gulimall.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuImagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuImagesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuSaleAttrValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/SkuSaleAttrValueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuImagesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuImagesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuSaleAttrValueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/com/atguigu/gulimall/product/service/impl/SkuSaleAttrValueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/target/classes/com/atguigu/gulimall/product/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/target/classes/com/atguigu/gulimall/product/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GuliESConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/java/com/atguigu/gulimall/search/config/GuliESConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/gulimall-ware.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/PurchaseDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/PurchaseDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/UndoLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/UndoLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareOrderTaskDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareOrderTaskDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareSkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareSkuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/SkuHasStockVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/SkuHasStockVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/PurchaseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/PurchaseDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/PurchaseDetailDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/PurchaseDetailDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/UndoLogDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/UndoLogDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/WareInfoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/WareInfoDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/WareOrderTaskDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/WareOrderTaskDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/WareOrderTaskDetailDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/WareOrderTaskDetailDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/WareSkuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/mapper/ware/WareSkuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/purchase-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/purchase-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/purchase.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/purchase.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/purchasedetail-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/purchasedetail-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/purchasedetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/purchasedetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/undolog-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/undolog-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/undolog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/undolog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareinfo-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareinfo-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareinfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareinfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertask-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertask-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertask.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertask.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertaskdetail-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertaskdetail-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertaskdetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/wareordertaskdetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/waresku-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/waresku-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/waresku.vue" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/target/classes/src/views/modules/ware/waresku.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +377,8 @@
       <workItem from="1622340861408" duration="9343000" />
       <workItem from="1622471160688" duration="5687000" />
       <workItem from="1622525546169" duration="8028000" />
-      <workItem from="1622613489305" duration="10969000" />
+      <workItem from="1622613489305" duration="11797000" />
+      <workItem from="1622788866474" duration="6256000" />
     </task>
     <servers />
   </component>
@@ -405,38 +419,46 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622535838904" />
-    <state width="1367" height="419" key="GridCell.Tab.0.bottom" timestamp="1622616470898">
+    <state width="1367" height="333" key="GridCell.Tab.0.bottom" timestamp="1622799406214">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1367" height="419" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622616470898" />
-    <state width="1367" height="419" key="GridCell.Tab.0.center" timestamp="1622616470898">
+    <state width="893" height="395" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622627570232" />
+    <state width="1367" height="333" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622799406214" />
+    <state width="1367" height="333" key="GridCell.Tab.0.center" timestamp="1622799406214">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1367" height="419" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622616470898" />
-    <state width="1367" height="419" key="GridCell.Tab.0.left" timestamp="1622616470898">
+    <state width="893" height="395" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622627570232" />
+    <state width="1367" height="333" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622799406214" />
+    <state width="1367" height="333" key="GridCell.Tab.0.left" timestamp="1622799406213">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1367" height="419" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622616470898" />
-    <state width="1367" height="419" key="GridCell.Tab.0.right" timestamp="1622616470898">
+    <state width="893" height="395" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622627570232" />
+    <state width="1367" height="333" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622799406213" />
+    <state width="1367" height="333" key="GridCell.Tab.0.right" timestamp="1622799406214">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1367" height="419" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622616470898" />
-    <state width="1367" height="419" key="GridCell.Tab.1.bottom" timestamp="1622616470898">
+    <state width="893" height="395" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622627570232" />
+    <state width="1367" height="333" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622799406214" />
+    <state width="1367" height="333" key="GridCell.Tab.1.bottom" timestamp="1622799406214">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1367" height="419" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622616470898" />
-    <state width="1367" height="419" key="GridCell.Tab.1.center" timestamp="1622616470898">
+    <state width="893" height="395" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622627570232" />
+    <state width="1367" height="333" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622799406214" />
+    <state width="1367" height="333" key="GridCell.Tab.1.center" timestamp="1622799406214">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1367" height="419" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622616470898" />
-    <state width="1367" height="419" key="GridCell.Tab.1.left" timestamp="1622616470898">
+    <state width="893" height="395" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622627570232" />
+    <state width="1367" height="333" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622799406214" />
+    <state width="1367" height="333" key="GridCell.Tab.1.left" timestamp="1622799406214">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1367" height="419" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622616470898" />
-    <state width="1367" height="419" key="GridCell.Tab.1.right" timestamp="1622616470898">
+    <state width="893" height="395" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622627570232" />
+    <state width="1367" height="333" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622799406214" />
+    <state width="1367" height="333" key="GridCell.Tab.1.right" timestamp="1622799406214">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1367" height="419" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622616470898" />
+    <state width="893" height="395" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622627570232" />
+    <state width="1367" height="333" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622799406214" />
     <state width="1367" height="272" key="GridCell.Tab.2.bottom" timestamp="1622540648517">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -466,11 +488,11 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2673" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622597747426" />
-    <state x="441" y="148" width="615" height="532" key="find.popup" timestamp="1622621780506">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2582" y="254" width="620" height="532" key="find.popup" timestamp="1622795135738">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="441" y="148" width="615" height="532" key="find.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1622621780506" />
-    <state x="2582" y="254" width="620" height="532" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622539494636" />
+    <state x="2582" y="254" width="620" height="532" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622795135738" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1622621166518">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
