@@ -1,7 +1,8 @@
 package com.atguigu.gulimall.order.feign;
 
-import com.firenay.common.utils.R;
-import com.firenay.mall.order.vo.WareSkuLockVo;
+
+import com.atguigu.common.utils.R;
+import com.atguigu.gulimall.order.vo.WareSkuLockVo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

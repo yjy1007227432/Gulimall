@@ -1,6 +1,6 @@
 package com.atguigu.gulimall.order.feign;
 
-import com.firenay.mall.order.vo.MemberAddressVo;
+import com.atguigu.gulimall.order.vo.MemberAddressVo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -5,37 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ccf14e-8866-460d-ae6b-d421ef8f09f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/OrderWebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderWebController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/CartFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/MemberFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/ProductFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/WmsFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/interceptor/LoginUserInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/FareVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/MemberAddressVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderConfirmVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderItemVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderSubmitVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/PayAsyncVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/PayVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SkuStockVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SpuInfoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SubmitOrderResponseVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/WareSkuLockVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/detai.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/PaymentInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/PaymentInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/RefundInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/RefundInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/OrderConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/CartFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/CartFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/MemberFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/MemberFeignService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/WmsFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/WmsFeignService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/target/classes/io/renren/modules/sys/controller/SysLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/target/classes/io/renren/modules/sys/controller/SysLoginController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +64,7 @@
       <recent name="G:\code\Gulimall-yjy\gulimall-search\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gulimall.order" />
       <recent name="com.atguigu.gulimall.order.interceptor" />
     </key>
   </component>
@@ -205,7 +182,7 @@
       <workItem from="1623333154071" duration="2271000" />
       <workItem from="1623340796789" duration="1590000" />
       <workItem from="1623765492086" duration="1146000" />
-      <workItem from="1623834577752" duration="5046000" />
+      <workItem from="1623834577752" duration="5951000" />
     </task>
     <servers />
   </component>
