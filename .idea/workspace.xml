@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager" selected="Spring Boot.GulimallProductApplication">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8ccf14e-8866-460d-ae6b-d421ef8f09f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/config/OrderWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/OrderWebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/CartFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/MemberFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/ProductFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/WmsFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/interceptor/LoginUserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/FareVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/MemberAddressVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderConfirmVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/OrderSubmitVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/PayAsyncVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/PayVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SkuStockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SpuInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/SubmitOrderResponseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/vo/WareSkuLockVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/detai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/PaymentInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/PaymentInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/RefundInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/controller/RefundInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-search/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/modules/sys/controller/SysLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-fast/target/classes/io/renren/modules/sys/controller/SysLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/target/classes/io/renren/modules/sys/controller/SysLoginController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\YMXD\.m2\repository" />
+        <option name="userSettingsFile" value="C:\Users\YMXD\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tlA3D849UU0t6600YC8U9BIGHj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\code\Gulimall-yjy\gulimall-order\src\main\java\com\atguigu\gulimall\order" />
+      <recent name="G:\code\Gulimall-yjy\gulimall-search\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gulimall.order.interceptor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RenrenApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,12 +180,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="renren-fast" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RenrenApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8ccf14e-8866-460d-ae6b-d421ef8f09f9" name="Default Changelist" comment="" />
+      <created>1623241081525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623241081525</updated>
+      <workItem from="1623241098236" duration="5007000" />
+      <workItem from="1623333154071" duration="2271000" />
+      <workItem from="1623340796789" duration="1590000" />
+      <workItem from="1623765492086" duration="1146000" />
+      <workItem from="1623834577752" duration="5046000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
