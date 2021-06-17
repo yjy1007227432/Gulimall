@@ -98,6 +98,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
             // feign在远程调用之前要构造请求 调用很多拦截器
             List<OrderItemVo> items = cartFeignService.getCurrentUserCartItems();
             confirmVo.setItems(items);
+            //feign在远程调用之前，调用很多拦截器。远程调用，请求头丢失，使用feign拦截器
         }, executor).thenRunAsync(()->{
             RequestContextHolder.setRequestAttributes(attributes);
             List<OrderItemVo> items = confirmVo.getItems();
