@@ -20,5 +20,10 @@ public interface WareSkuService extends IService<WareSkuEntity> {
     PageUtils queryPage(Map<String, Object> params);
 
     List<SkuHasStockVo> getSkuHasStock(List<Long> skuIds);
+
+    /**
+     * 为某个订单锁定库存
+     */
+    Boolean orderLockStock(WareSkuLockVo vo);
 }
 
