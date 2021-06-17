@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8ccf14e-8866-460d-ae6b-d421ef8f09f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/OrderConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/CartFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/CartFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/MemberFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/MemberFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/WmsFeignService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/feign/WmsFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/src/main/java/com/atguigu/gulimall/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/feign/GlFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/feign/MemberFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/FareVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/vo/MemberAddressVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberReceiveAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/controller/MemberReceiveAddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberReceiveAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/MemberReceiveAddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberReceiveAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/src/main/java/com/atguigu/gulimall/member/service/impl/MemberReceiveAddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/GulimallWareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/GulimallWareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/controller/WareInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/WareInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/src/main/java/com/atguigu/gulimall/ware/service/impl/WareInfoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +35,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -64,18 +77,21 @@
       <recent name="G:\code\Gulimall-yjy\gulimall-search\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gulimall.ware.vo" />
       <recent name="com.atguigu.gulimall.order" />
       <recent name="com.atguigu.gulimall.order.interceptor" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.RenrenApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,7 +198,8 @@
       <workItem from="1623333154071" duration="2271000" />
       <workItem from="1623340796789" duration="1590000" />
       <workItem from="1623765492086" duration="1146000" />
-      <workItem from="1623834577752" duration="5951000" />
+      <workItem from="1623834577752" duration="6193000" />
+      <workItem from="1623890515909" duration="4308000" />
     </task>
     <servers />
   </component>

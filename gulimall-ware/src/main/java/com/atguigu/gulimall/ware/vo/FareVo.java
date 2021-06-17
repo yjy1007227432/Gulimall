@@ -1,4 +1,4 @@
-package com.firenay.mall.order.vo;
+package com.atguigu.gulimall.ware.vo;
 
 import lombok.Data;
 
