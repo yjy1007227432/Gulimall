@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface MemberFeignService {
 
 
-    @RequestMapping(value = "member/memberreceiveaddress/{memberId}/addresses")
-    R info(@PathVariable("memberId") Long addrId);
+    @RequestMapping("/member/memberreceiveaddress/info/{id}")
+    R addrInfo(@PathVariable("id") Long id);
 }
