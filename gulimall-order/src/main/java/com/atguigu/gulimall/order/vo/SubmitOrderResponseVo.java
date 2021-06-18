@@ -1,6 +1,7 @@
 package com.atguigu.gulimall.order.vo;
 
-import com.firenay.mall.order.entity.OrderEntity;
+
+import com.atguigu.gulimall.order.entity.OrderEntity;
 import lombok.Data;
 
 /**
