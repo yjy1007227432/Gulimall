@@ -1,5 +1,7 @@
 package com.atguigu.gulimall.order.service.impl;
 
+import com.atguigu.gulimall.order.entity.OrderEntity;
+import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -24,6 +26,11 @@ public class PaymentInfoServiceImpl extends ServiceImpl<PaymentInfoDao, PaymentI
         );
 
         return new PageUtils(page);
+    }
+
+    @Override
+    public OrderEntity queryOrderByOrderToken(String orderToken) {
+        return baseMapper.selectOne(new QueryWrapper<OrderEntity>().eq(""))
     }
 
 }

@@ -2,7 +2,7 @@ package com.atguigu.gulimal.cart.interceptor;
 
 import com.atguigu.common.constant.AuthServerConstant;
 import com.atguigu.common.constant.CartConstant;
-import com.atguigu.common.vo.MemberRsepVo;
+import com.atguigu.common.vo.MemberRespVo;
 import com.atguigu.gulimal.cart.to.UserInfoTo;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -24,7 +24,7 @@ public class CartInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HttpSession session = request.getSession();
-        MemberRsepVo member = (MemberRsepVo) session.getAttribute(AuthServerConstant.LOGIN_USER);
+        MemberRespVo member = (MemberRespVo) session.getAttribute(AuthServerConstant.LOGIN_USER);
         UserInfoTo userInfo = new UserInfoTo();
         if (member != null) {
             //用户已登录

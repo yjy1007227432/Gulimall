@@ -2,6 +2,7 @@ package com.dalianpai.gulimall.seckill.interceptor;
 
 
 import com.atguigu.common.constant.AuthServerConstant;
+import com.atguigu.common.vo.MemberRespVo;
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.servlet.HandlerInterceptor;

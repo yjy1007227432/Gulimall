@@ -4,7 +4,7 @@ import com.alibaba.fastjson.TypeReference;
 import com.atguigu.common.utils.PageUtils;
 import com.atguigu.common.utils.Query;
 import com.atguigu.common.utils.R;
-import com.atguigu.common.vo.MemberRsepVo;
+import com.atguigu.common.vo.MemberRespVo;
 import com.atguigu.gulimall.order.OrderConstant;
 import com.atguigu.gulimall.order.dao.OrderDao;
 import com.atguigu.gulimall.order.entity.OrderEntity;
@@ -25,7 +25,6 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.stereotype.Service;
@@ -88,7 +87,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
 
     @Override
     public OrderConfirmVo confirmOrder() throws ExecutionException, InterruptedException {
-        MemberRsepVo memberRsepVo = LoginUserInterceptor.loginUser.get();
+        MemberRespVo memberRespVo = LoginUserInterceptor.loginUser.get();
         OrderConfirmVo confirmVo = new OrderConfirmVo();
         // 这一步至关重要 冲主线程获取用户数据 异步线程来共享
         RequestAttributes attributes = RequestContextHolder.getRequestAttributes();
@@ -98,7 +97,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
             // 1.远程查询所有的收获地址列表
             List<MemberAddressVo> address;
             try {
-                address = memberFeignService.getAddress(memberRsepVo.getId());
+                address = memberFeignService.getAddress(memberRespVo.getId());
                 confirmVo.setAddress(address);
             } catch (Exception e) {
                 log.warn("\n远程调用会员服务失败 [会员服务可能未启动]");
@@ -130,7 +129,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         // TODO 5.防重令牌
         String token = UUID.randomUUID().toString().replace("-", "");
         confirmVo.setOrderToken(token);
-        stringRedisTemplate.opsForValue().set(OrderConstant.USER_ORDER_TOKEN_PREFIX + memberRsepVo.getId(), token, 10, TimeUnit.MINUTES);
+        stringRedisTemplate.opsForValue().set(OrderConstant.USER_ORDER_TOKEN_PREFIX + memberRespVo.getId(), token, 10, TimeUnit.MINUTES);
         CompletableFuture.allOf(getAddressFuture, cartFuture).get();
 
         return confirmVo;
@@ -142,7 +141,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         SubmitOrderResponseVo submitVo = new SubmitOrderResponseVo();
         //获取登陆信息
         SubmitOrderResponseVo response = new SubmitOrderResponseVo();
-        MemberRsepVo memberRespVo = LoginUserInterceptor.loginUser.get();
+        MemberRespVo memberRespVo = LoginUserInterceptor.loginUser.get();
         response.setCode(0);
 
         //下单：去创建订单，验令牌，验库存...
@@ -350,7 +349,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         entity.setCommentTime(new Date());
         entity.setReceiveTime(new Date());
         entity.setDeliveryTime(new Date());
-        MemberRsepVo rsepVo = LoginUserInterceptor.loginUser.get();
+        MemberRespVo rsepVo = LoginUserInterceptor.loginUser.get();
         entity.setMemberId(rsepVo.getId());
         entity.setMemberUsername(rsepVo.getUsername());
         entity.setBillReceiverEmail(rsepVo.getEmail());

@@ -20,3 +20,11 @@ mybatis-plus:
 
 server:
   port: 11000
+
+
+alipay:
+  app_id: 2016102100732649
+  # 支付宝异步回调通知 这个来感应订单是否完成
+  notify_url: http://sthwsr.natappfree.cc/payed/notify
+  return_url: http://member.glmall.com/memberOrder.html
+  timeout: 15m

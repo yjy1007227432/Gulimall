@@ -7,7 +7,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import com.atguigu.common.to.mq.SecKillOrderTo;
 import com.atguigu.common.utils.R;
-import com.atguigu.common.vo.MemberRsepVo;
+import com.atguigu.common.vo.MemberRespVo;
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 import com.firenay.mall.seckill.feign.CouponFeignService;
 import com.firenay.mall.seckill.feign.ProductFeignService;
@@ -140,7 +140,7 @@ public class SeckillServiceImpl implements SeckillService {
 	@Override
 	public String kill(String killId, String key, Integer num) {
 
-		MemberRsepVo memberRsepVo = LoginUserInterceptor.threadLocal.get();
+		MemberRespVo memberRespVo = LoginUserInterceptor.threadLocal.get();
 
 		// 1.获取当前秒杀商品的详细信息
 		BoundHashOperations<String, String, String> hashOps = stringRedisTemplate.boundHashOps(SKUKILL_CACHE_PREFIX);
@@ -161,7 +161,7 @@ public class SeckillServiceImpl implements SeckillService {
 					BigDecimal limit = redisTo.getSeckillLimit();
 					if(num <= limit.intValue()){
 						// 3.验证这个人是否已经购买过了
-						String redisKey = memberRsepVo.getId() + "-" + skuId;
+						String redisKey = memberRespVo.getId() + "-" + skuId;
 						// 让数据自动过期
 						long ttl = redisTo.getEndTime() - redisTo.getStartTime();
 
@@ -176,7 +176,7 @@ public class SeckillServiceImpl implements SeckillService {
 								String orderSn = IdWorker.getTimeId() + UUID.randomUUID().toString().replace("-","").substring(7,8);
 								SecKillOrderTo orderTo = new SecKillOrderTo();
 								orderTo.setOrderSn(orderSn);
-								orderTo.setMemberId(memberRsepVo.getId());
+								orderTo.setMemberId(memberRespVo.getId());
 								orderTo.setNum(num);
 								orderTo.setSkuId(redisTo.getSkuId());
 								orderTo.setSeckillPrice(redisTo.getSeckillPrice());

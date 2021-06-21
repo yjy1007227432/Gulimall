@@ -4,7 +4,7 @@ import com.alibaba.fastjson.TypeReference;
 import com.atguigu.common.constant.AuthServerConstant;
 import com.atguigu.common.excepiton.BizCodeEnum;
 import com.atguigu.common.utils.R;
-import com.atguigu.common.vo.MemberRsepVo;
+import com.atguigu.common.vo.MemberRespVo;
 import com.firenay.mall.auth.feign.MemberFeignService;
 import com.firenay.mall.auth.feign.ThirdPartFeignService;
 import com.firenay.mall.auth.vo.UserLoginVo;
@@ -67,7 +67,7 @@ public class LoginController {
 		R r = memberFeignService.login(userLoginVo);
 		if(r.getCode() == 0){
 			// 登录成功
-			MemberRsepVo rsepVo = r.getData("data", new TypeReference<MemberRsepVo>() {});
+			MemberRespVo rsepVo = r.getData("data", new TypeReference<MemberRespVo>() {});
 			session.setAttribute(AuthServerConstant.LOGIN_USER, rsepVo);
 			log.info("\n欢迎 [" + rsepVo.getUsername() + "] 登录");
 			return "redirect:http://120.26.198.103";

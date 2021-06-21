@@ -1,9 +1,9 @@
 package com.atguigu.gulimall.order.web;
 
 import com.alipay.api.AlipayApiException;
-import com.firenay.mall.order.config.AlipayTemplate;
-import com.firenay.mall.order.service.OrderService;
-import com.firenay.mall.order.vo.PayVo;
+import com.atguigu.gulimall.order.config.AlipayTemplate;
+import com.atguigu.gulimall.order.service.OrderService;
+import com.atguigu.gulimall.order.vo.PayVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,6 +23,7 @@ public class PayWebController {
 
 	@Autowired
 	private OrderService orderService;
+
 
 	/**
 	 * 告诉浏览器我们会返回一个html页面

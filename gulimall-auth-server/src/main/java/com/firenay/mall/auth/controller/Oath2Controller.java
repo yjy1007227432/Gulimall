@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import com.atguigu.common.constant.AuthServerConstant;
 import com.atguigu.common.utils.R;
-import com.atguigu.common.vo.MemberRsepVo;
+import com.atguigu.common.vo.MemberRespVo;
 import com.atguigu.common.xss.HttpUtils;
 import com.firenay.mall.auth.feign.MemberFeignService;
 import com.firenay.mall.auth.vo.SocialUser;
@@ -37,7 +37,7 @@ public class Oath2Controller {
 	@GetMapping("/logout")
 	public String login(HttpSession session){
 		if(session.getAttribute(AuthServerConstant.LOGIN_USER) != null){
-			log.info("\n[" + ((MemberRsepVo)session.getAttribute(AuthServerConstant.LOGIN_USER)).getUsername() + "] 已下线");
+			log.info("\n[" + ((MemberRespVo)session.getAttribute(AuthServerConstant.LOGIN_USER)).getUsername() + "] 已下线");
 		}
 		session.invalidate();
 		return "redirect:http://auth.glmall.com/login.html";
@@ -75,7 +75,7 @@ public class Oath2Controller {
 			// 1.如果用户是第一次进来 自动注册进来(为当前社交用户生成一个会员信息 以后这个账户就会关联这个账号)
 			R login = memberFeignService.login(socialUser);
 			if(login.getCode() == 0){
-				MemberRsepVo rsepVo = login.getData("data" ,new TypeReference<MemberRsepVo>() {});
+				MemberRespVo rsepVo = login.getData("data" ,new TypeReference<MemberRespVo>() {});
 
 				log.info("\n欢迎 [" + rsepVo.getUsername() + "] 使用社交账号登录");
 				// 第一次使用session 命令浏览器保存这个用户信息 JESSIONSEID 每次只要访问这个网站就会带上这个cookie

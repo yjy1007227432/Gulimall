@@ -21,10 +21,11 @@
         <module name="renren-fast" />
         <module name="mall-seckill" />
         <module name="gulimall-ware" />
+        <module name="gulimall-payment" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gulimall" target="1.5" />
+      <module name="gulimall" target="1.8" />
       <module name="gulimall-auth-server" target="1.8" />
       <module name="gulimall-cart" target="1.8" />
       <module name="gulimall-common" target="7" />
@@ -32,6 +33,7 @@
       <module name="gulimall-gateway" target="1.8" />
       <module name="gulimall-member" target="1.8" />
       <module name="gulimall-order" target="1.8" />
+      <module name="gulimall-payment" target="1.8" />
       <module name="gulimall-product" target="1.8" />
       <module name="gulimall-search" target="1.8" />
       <module name="gulimall-seckill" target="1.8" />
@@ -50,6 +52,7 @@
       <module name="gulimall-gateway" options="-parameters" />
       <module name="gulimall-member" options="-parameters" />
       <module name="gulimall-order" options="-parameters" />
+      <module name="gulimall-payment" options="-parameters" />
       <module name="gulimall-product" options="-parameters" />
       <module name="gulimall-search" options="-parameters" />
       <module name="gulimall-seckill" options="-parameters" />

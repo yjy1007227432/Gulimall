@@ -1,7 +1,7 @@
 package com.firenay.mall.seckill.interceptor;
 
 import com.atguigu.common.constant.AuthServerConstant;
-import com.atguigu.common.vo.MemberRsepVo;
+import com.atguigu.common.vo.MemberRespVo;
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 @Component
 public class LoginUserInterceptor implements HandlerInterceptor {
 
-	public static ThreadLocal<MemberRsepVo> threadLocal = new ThreadLocal<>();
+	public static ThreadLocal<MemberRespVo> threadLocal = new ThreadLocal<>();
 
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -28,9 +28,9 @@ public class LoginUserInterceptor implements HandlerInterceptor {
 		boolean match = new AntPathMatcher().match("/kill", uri);
 		if(match){
 			HttpSession session = request.getSession();
-			MemberRsepVo memberRsepVo = (MemberRsepVo) session.getAttribute(AuthServerConstant.LOGIN_USER);
-			if(memberRsepVo != null){
-				threadLocal.set(memberRsepVo);
+			MemberRespVo memberRespVo = (MemberRespVo) session.getAttribute(AuthServerConstant.LOGIN_USER);
+			if(memberRespVo != null){
+				threadLocal.set(memberRespVo);
 				return true;
 			}else{
 				// 没登陆就去登录

@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/mall-seckill/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-seckill/pom.xml" />
         <option value="$PROJECT_DIR$/gulimall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-payment/pom.xml" />
       </list>
     </option>
   </component>

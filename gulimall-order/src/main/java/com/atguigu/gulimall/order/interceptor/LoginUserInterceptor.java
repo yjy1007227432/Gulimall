@@ -1,7 +1,7 @@
 package com.atguigu.gulimall.order.interceptor;
 
 import com.atguigu.common.constant.AuthServerConstant;
-import com.atguigu.common.vo.MemberRsepVo;
+import com.atguigu.common.vo.MemberRespVo;
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
 @Component
 public class LoginUserInterceptor implements HandlerInterceptor {
 
-	public static ThreadLocal<MemberRsepVo> loginUser = new ThreadLocal<>();
+	public static ThreadLocal<MemberRespVo> loginUser = new ThreadLocal<>();
 
 	/**
 	 * 登陆拦截
@@ -45,7 +45,7 @@ public class LoginUserInterceptor implements HandlerInterceptor {
 		/**
 		 * 获取登陆用户信息
 		 */
-		MemberRsepVo attribute = (MemberRsepVo)session.getAttribute(AuthServerConstant.LOGIN_USER);
+		MemberRespVo attribute = (MemberRespVo)session.getAttribute(AuthServerConstant.LOGIN_USER);
 
 		if (attribute!=null){
 			loginUser.set(attribute);
